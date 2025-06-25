@@ -1,0 +1,3 @@
+How General_commands and security policy template work: General commands is a list of commands I either assembled from documentation, or found on the web. Among those commands is local security policy modification. When you use "secedit /export /cfg "20240923-Test.cfg""
+this creates a text file called 20240923-Test.cfg. Opening this file with notepad or notepad++ should reveal a template of basic security policies. This security policy was created to fit Windows Server 2022 for the Cyberpatriot competition. As such, when you copy over the 
+data from Security Policy Template, save, then use the next command in general command, it pushes the template into action. For obvious reasons, this template is purely for proof of concept and Cyberpatriot.
